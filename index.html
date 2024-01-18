@@ -12,14 +12,11 @@
 <body>
   <pre id="bib-content"></pre>
 
-  <script>
+<script>
     // JavaScript code to fetch and display the .bib file content
-    const fileId = '1YVmuyKmWcMzqci2Skbd9LCj-yzWyYX6GBb4YKad9JVw';
     fetch('references.bib')
-      .then(response => response.text()
-           console.log("response:" response))
+      .then(response => response.text())
       .then(content => {
-        console.log("content:" content)
         const bibContentElement = document.getElementById('bib-content');
         bibContentElement.textContent = content;
       })
