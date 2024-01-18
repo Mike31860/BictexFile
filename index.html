@@ -14,8 +14,7 @@
 
 <script>
     // JavaScript code to fetch and display the .bib file content
-   const fileId = '1YVmuyKmWcMzqci2Skbd9LCj-yzWyYX6GBb4YKad9JVw';
-    fetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`)
+    fetch(`https://docs.google.com/document/d/1YVmuyKmWcMzqci2Skbd9LCj-yzWyYX6GBb4YKad9JVw/edit?usp=sharing`)
       .then(response => response.text())
       .then(content => {
         const bibContentElement = document.getElementById('bib-content');
