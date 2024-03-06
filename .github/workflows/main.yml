@@ -1,3 +1,4 @@
-- name: google-drive-upload-git-action
-  uses: adityak74/google-drive-upload-git-action@v0.3
+- name: google-docs-to-github
+  uses: r7kamura/google-docs-to-github@v3.0.1
+            
             
